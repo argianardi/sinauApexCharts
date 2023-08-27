@@ -9,3 +9,15 @@
 .bh {
   border: solid black;
 }
+
+.tooltip {
+  border-radius: 4px;
+  background: linear-gradient(
+    49deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(185, 185, 185, 0.1) 100%
+  );
+  box-shadow: 4px 4000px 4px 0px rgba(140, 140, 140, 0.05);
+  backdrop-filter: blur(30px);
+  padding: 4px 8px;
+}
